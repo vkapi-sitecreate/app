@@ -6,7 +6,7 @@ class init {
   DOM() {
   	if (this.stady == "ready") {
   		document.body.innerHTML = '<header id="header"></header><nav id="nav"></nav><main id="main"></main><aside id="aside"></aside><footer id="footer"></footer>';
-  		document.body.style.display = "grid";
+  		
   		var header = document.getElementById('header'),
   			nav = document.getElementById('nav'),
   			main = document.getElementById('main'),
